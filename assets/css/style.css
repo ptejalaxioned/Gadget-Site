@@ -232,7 +232,7 @@ header {
 
 header .wrapper {
   width: 73.3%;
-  padding: 8px 5% 15px;
+  padding: 10px 5% 17px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   display: flex;
@@ -271,7 +271,8 @@ nav {
 .nav-list a {
   padding: 10px;
   font-weight: bolder;
-  font-size: 15.5px;
+  font-size: 15.6px;
+  letter-spacing: .2px;
 }
 
 .header-center a {
@@ -333,8 +334,15 @@ nav {
 /*=================================
   main styling starts here
 =================================*/
-
-
+/*=================================
+  banner styling starts here
+=================================*/
+.banner .wrapper{
+  width: 100%;
+}
+/*=================================
+  banner styling ends here
+=================================*/
 
 
 
