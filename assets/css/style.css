@@ -327,6 +327,7 @@ nav {
 .earth::before {
   content: "\f0ac";
 }
+
 /*=================================
   Header styling ends here
 =================================*/
@@ -337,8 +338,46 @@ nav {
 /*=================================
   banner styling starts here
 =================================*/
-.banner .wrapper{
+.banner {
+  position: relative;
+}
+
+.banner .wrapper {
   width: 100%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  /* color:  var(--secondary-color);
+  font-size: 75px;
+  font-weight: 900;
+  text-align: center; */
+  color: #f0f8ff;
+  transform: translate(-50%, -50%);
+}
+
+.banner-buttons{
+  display: flex;
+  gap: 14px;
+  padding: 30px 0 55px;
+}
+
+.orange-button {
+  background-color: #ff8a73;
+}
+
+.blue-button {
+  background-color: #5580ff;
+}
+
+h1{
+  font-size: 55px;
 }
 /*=================================
   banner styling ends here
