@@ -451,13 +451,64 @@ h4 {
   font-size: 22px;
   font-weight: 600;
 }
+
 /*=================================
   features styling ends here
 =================================*/
+/*=================================
+proven-product styling starts here
+=================================*/
+.proven-product {
+  padding: 69px 0 100px;
+  background-color: #f2f6ff;
+}
 
+.proven-product .wrapper {
+  width: 78%;
+  display: flex;
+  align-items: end;
+  gap: 9%;
+}
 
+.proven-product img {
+  border-radius: 12px;
+}
 
+.proven-product-right {
+  width: 31%;
+  padding-bottom: 5px;
+}
 
+.proven-product-left {
+  width: 60%;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+.para-for-h2 {
+  margin: 22px 0 45px;
+  color: #918a91;
+  font-size: 19px;
+  line-height: 29px;
+}
+
+.proven-product .button {
+  padding: 15px 44px;
+  border-radius: 35px;
+}
+
+.proven-product img {
+  width: 549px;
+}
+
+.proven-product figure {
+  padding-left: 45px;
+}
+/*=================================
+proven-product styling ends here
+=================================*/
 /*=================================
   main styling ends here
 =================================*/
