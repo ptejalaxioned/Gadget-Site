@@ -506,6 +506,7 @@ h2 {
 .proven-product figure {
   padding-left: 45px;
 }
+
 /*=================================
 proven-product styling ends here
 =================================*/
@@ -556,9 +557,42 @@ proven-product styling ends here
   padding: 15px 44px;
   border-radius: 35px;
 }
+
 /*======================================
  reliable-suppliers styling ends here
 ========================================*/
+/*=================================
+  products styling starts here
+=================================*/
+.products .wrapper {
+  width: 100%;
+}
+
+.product-up {
+  width: 82%;
+  padding: 60px 0;
+  margin: auto;
+  display: flex;
+  gap: 3%;
+}
+
+.common-para {
+  color: #918a91;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-list li {
+  width: 25%
+}
+/*=================================
+  products styling ends here
+=================================*/
 /*=================================
   main styling ends here
 =================================*/
