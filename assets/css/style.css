@@ -346,6 +346,11 @@ nav {
   width: 100%;
 }
 
+.main-image {
+  /* clip-path: ellipse(136% 45% at 50% 44%); */
+  clip-path: ellipse(136% 49% at 50% 40%);
+}
+
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -353,11 +358,7 @@ nav {
   position: absolute;
   z-index: 2;
   left: 50%;
-  top: 50%;
-  /* color:  var(--secondary-color);
-  font-size: 75px;
-  font-weight: 900;
-  text-align: center; */
+  top: 57%;
   color: #f0f8ff;
   transform: translate(-50%, -50%);
 }
@@ -365,7 +366,12 @@ nav {
 .banner-buttons{
   display: flex;
   gap: 14px;
-  padding: 30px 0 55px;
+  padding: 30px 0 60px;
+}
+
+.banner-buttons .button{
+padding: 16px 48px;
+border-radius: 41px;
 }
 
 .orange-button {
@@ -378,6 +384,16 @@ nav {
 
 h1{
   font-size: 55px;
+}
+/* after 7:30 */
+h1 a{
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.banner-content-image img{
+  width: 751px;
+  border-radius: 14px;
 }
 /*=================================
   banner styling ends here
