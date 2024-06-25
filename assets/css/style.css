@@ -196,7 +196,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%;
+  width: 82%;
   margin: 0 auto;
 }
 
@@ -430,8 +430,15 @@ h1 a {
 
 .features p {
   padding-left: 70px;
+}
+
+.para-for-h4 {
   color: #918a91;
   line-height: 25px;
+}
+
+.para-for-h4::first-letter {
+  text-transform: capitalize;
 }
 
 .voilet-tik::before {
@@ -464,7 +471,6 @@ proven-product styling starts here
 }
 
 .proven-product .wrapper {
-  width: 78%;
   display: flex;
   align-items: end;
   gap: 9%;
@@ -475,7 +481,7 @@ proven-product styling starts here
 }
 
 .proven-product-right {
-  width: 31%;
+  width: 32%;
   padding-bottom: 5px;
 }
 
@@ -504,7 +510,7 @@ h2 {
 }
 
 .proven-product figure {
-  padding-left: 45px;
+  padding-left: 73px;
 }
 
 /*=================================
@@ -518,7 +524,6 @@ proven-product styling ends here
 }
 
 .reliable-suppliers .wrapper {
-  width: 82%;
   display: flex;
   align-items: end;
   gap: 4%;
@@ -590,8 +595,104 @@ proven-product styling ends here
 .product-list li {
   width: 25%
 }
+
 /*=================================
   products styling ends here
+=================================*/
+/*=================================
+  mobile styling starts here
+=================================*/
+.mobile {
+  padding: 72px 0;
+}
+
+.mobile .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+}
+
+.mobile img {
+  width: 329px;
+}
+
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.mobile h4 {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 25px;
+}
+
+.mobile-list-left h4::after {
+  font-family: "FontAwesome";
+  font-size: 35px;
+}
+
+.mobile-list-right h4::before {
+  font-family: "FontAwesome";
+  font-size: 35px;
+}
+
+.globe::after {
+  content: "\f0ac";
+}
+
+.chat::after {
+  content: "\f27a";
+  color: #5580ff;
+}
+
+.project::after {
+  content: "\f1d8";
+  color: #ff8a73;
+}
+
+.security::before {
+  content: "\f3ed";
+  color: #ff8a73;
+}
+
+.computer::before {
+  content: "\e4e5";
+  color: #c0cffb;
+}
+
+.setting::before {
+  content: "\f013";
+}
+
+.mobile-list-right {
+  text-align: start;
+}
+
+.mobile-list-left {
+  text-align: end;
+}
+
+.mobile-list-right p {
+  padding-left: 63px;
+}
+
+.mobile-list-left p {
+  padding-right: 63px;
+}
+
+.mobile-list-right h4 {
+  justify-content: start;
+
+}
+
+.mobile-list-left h4 {
+  justify-content: end;
+
+}
+/*=================================
+  mobile styling ends here
 =================================*/
 /*=================================
   main styling ends here
