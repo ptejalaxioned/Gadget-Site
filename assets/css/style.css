@@ -211,17 +211,9 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-.all-caps {
-  text-transform: uppercase
-}
-
-.first-letter-caps {
-  text-transform: capitalize;
-}
-
-.single-letter-caps::first-letter {
-  text-transform: uppercase;
-}
+.all-caps { text-transform: uppercase }
+.first-letter-caps { text-transform: capitalize; }
+.single-letter-caps::first-letter { text-transform: uppercase; }
 
 header {
   width: 100%;
@@ -246,21 +238,10 @@ header .wrapper {
   justify-content: space-between;
 }
 
-.header-content a {
-  color: #6e609b;
-}
-
-.sub-list {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-}
-
-nav {
-  width: 60%;
-}
+.header-content a { color: #6e609b; }
+.sub-list { display: none; }
+.hamburger { display: none; }
+nav { width: 60%; }
 
 .nav-list {
   width: 100%;
@@ -316,18 +297,9 @@ nav {
   text-indent: 0;
 }
 
-.cart::before {
-  content: "\f07a";
-}
-
-.search::before {
-  content: "\f002";
-}
-
-.earth::before {
-  content: "\f0ac";
-}
-
+.cart::before { content: "\f07a"; }
+.search::before { content: "\f002"; }
+.earth::before { content: "\f0ac"; }
 /*=================================
   Header styling ends here
 =================================*/
@@ -338,17 +310,9 @@ nav {
 /*=================================
   banner styling starts here
 =================================*/
-.banner {
-  position: relative;
-}
-
-.banner .wrapper {
-  width: 100%;
-}
-
-.main-image {
-  clip-path: ellipse(136% 49% at 50% 40%);
-}
+.banner { position: relative; }
+.banner .wrapper { width: 100%; }
+.main-image { clip-path: ellipse(136% 49% at 50% 40%); }
 
 .banner-content {
   display: flex;
@@ -373,21 +337,13 @@ nav {
   border-radius: 41px;
 }
 
-.orange-button {
-  background-color: #ff8a73;
-}
-
-.blue-button {
-  background-color: #5580ff;
-}
-
-h1 {
-  font-size: 55px;
-}
+.orange-button { background-color: #ff8a73; }
+.blue-button { background-color: #5580ff; }
+h1 { font-size: 55px; }
 
 h1 a {
-  color: #f0f8ff;
   margin-bottom: 20px;
+  color: #f0f8ff;
 }
 
 .banner-content-image img {
@@ -396,7 +352,6 @@ h1 a {
   border-radius: 14px;
   object-fit: cover;
 }
-
 /*=================================
   banner styling ends here
 =================================*/
@@ -430,37 +385,23 @@ h1 a {
   gap: 27px;
 }
 
-.features p {
-  padding-left: 70px;
-}
+.features p { padding-left: 70px; }
 
 .para-for-h4 {
   color: #918a91;
   line-height: 25px;
 }
 
-.para-for-h4::first-letter {
-  text-transform: capitalize;
-}
-
-.voilet-tik::before {
-  background-color: #c0cffb;
-}
-
-.blue-tik::before {
-  background-color: #5580ff;
-}
-
-.orange-tik::before {
-  background-color: #ff8a73;
-}
+.para-for-h4::first-letter { text-transform: capitalize; }
+.voilet-tik::before { background-color: #c0cffb; }
+.blue-tik::before { background-color: #5580ff; }
+.orange-tik::before { background-color: #ff8a73; }
 
 h4 {
   color: #6e609b;
   font-size: 22px;
   font-weight: 600;
 }
-
 /*=================================
   features styling ends here
 =================================*/
@@ -489,13 +430,8 @@ proven-product styling starts here
   padding-bottom: 5px;
 }
 
-.proven-product-left {
-  width: 60%;
-}
-
-h2 {
-  font-size: 44px;
-}
+.proven-product-left { width: 60%; }
+h2 { font-size: 44px; }
 
 .para-for-h2 {
   margin: 22px 0 45px;
@@ -515,19 +451,14 @@ h2 {
   object-fit: cover;
 }
 
-.proven-product figure {
-  padding-left: 73px;
-}
-
+.proven-product figure { padding-left: 73px; }
 /*=================================
 proven-product styling ends here
 =================================*/
 /*======================================
  reliable-suppliers styling starts here
 ========================================*/
-.reliable-suppliers {
-  padding: 47px 0 230px;
-}
+.reliable-suppliers { padding: 47px 0 230px; }
 
 .reliable-suppliers .wrapper {
   display: flex;
@@ -543,9 +474,7 @@ proven-product styling ends here
   position: relative;
 }
 
-.reliable-suppliers-left {
-  width: 48%;
-}
+.reliable-suppliers-left { width: 48%; }
 
 .reliable-suppliers-img-up {
   position: absolute;
@@ -572,16 +501,13 @@ proven-product styling ends here
   padding: 15px 44px;
   border-radius: 35px;
 }
-
 /*======================================
  reliable-suppliers styling ends here
 ========================================*/
 /*=================================
   products styling starts here
 =================================*/
-.products .wrapper {
-  width: 100%;
-}
+.products .wrapper { width: 100%; }
 
 .product-up {
   width: 82%;
@@ -602,19 +528,14 @@ proven-product styling ends here
   flex-wrap: wrap;
 }
 
-.product-list li {
-  width: 25%
-}
-
+.product-list li { width: 25% }
 /*=================================
   products styling ends here
 =================================*/
 /*=================================
   mobile styling starts here
 =================================*/
-.mobile {
-  padding: 72px 0;
-}
+.mobile { padding: 72px 0; }
 
 .mobile .wrapper {
   display: flex;
@@ -650,9 +571,7 @@ proven-product styling ends here
   font-size: 35px;
 }
 
-.globe::after {
-  content: "\f0ac";
-}
+.globe::after { content: "\f0ac"; }
 
 .chat::after {
   content: "\f27a";
@@ -674,34 +593,13 @@ proven-product styling ends here
   color: #c0cffb;
 }
 
-.setting::before {
-  content: "\f013";
-}
-
-.mobile-list-right {
-  text-align: start;
-}
-
-.mobile-list-left {
-  text-align: end;
-}
-
-.mobile-list-right p {
-  padding-left: 63px;
-}
-
-.mobile-list-left p {
-  padding-right: 63px;
-}
-
-.mobile-list-right h4 {
-  justify-content: start;
-}
-
-.mobile-list-left h4 {
-  justify-content: end;
-}
-
+.setting::before { content: "\f013"; }
+.mobile-list-right { text-align: start; }
+.mobile-list-left { text-align: end; }
+.mobile-list-right p { padding-left: 63px; }
+.mobile-list-left p { padding-right: 63px; }
+.mobile-list-right h4 { justify-content: start; }
+.mobile-list-left h4 { justify-content: end; }
 /*=================================
   mobile styling ends here
 =================================*/
@@ -713,14 +611,9 @@ proven-product styling ends here
   background-color: #f2f6ff;
 }
 
-.we-choose .wrapper {
-  display: flex;
-}
-
+.we-choose .wrapper { display: flex; }
 .we-choose h2,
-.we-choose p {
-  width: 50%;
-}
+.we-choose p { width: 50%; }
 
 .we-choose h2 {
   padding-right: 50px;
@@ -728,23 +621,15 @@ proven-product styling ends here
   font-size: 45px;
 }
 
-.we-choose p {
-  padding-left: 60px;
-}
-
+.we-choose p { padding-left: 60px; }
 /*=================================
   we-choose styling ends here
 =================================*/
 /*=================================
  sale-countdown styling starts here
 =================================*/
-.sale-countdown {
-  padding: 84px 0 0;
-}
-
-.sale-countdown .wrapper {
-  width: 94%;
-}
+.sale-countdown { padding: 84px 0 0; }
+.sale-countdown .wrapper { width: 94%; }
 
 .sale-countdown-up {
   width: 60%;
@@ -789,9 +674,7 @@ h3 {
   text-transform: lowercase;
 }
 
-.sort-buttons a::first-letter {
-  text-transform: uppercase;
-}
+.sort-buttons a::first-letter { text-transform: uppercase; }
 
 .sort-buttons {
   padding: 32px 0;
@@ -810,9 +693,7 @@ h3 {
   padding-top: 23px;
 }
 
-.filter-range-left {
-  width: 75%;
-}
+.filter-range-left { width: 75%; }
 
 .item-list {
   display: flex;
@@ -859,13 +740,8 @@ h5 {
   font-weight: 600;
 }
 
-.range-buttons a {
-  text-transform: lowercase;
-}
-
-.range-buttons a::first-letter {
-  text-transform: uppercase;
-}
+.range-buttons a { text-transform: lowercase; }
+.range-buttons a::first-letter { text-transform: uppercase; }
 
 .range {
   padding: 22px;
@@ -887,14 +763,10 @@ h5 {
   -webkit-appearance: none;
 }
 
-.range input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-}
+.range input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; }
 
 .range input[type=range]:active,
-.range input[type=range]:focus {
-  outline: 0;
-}
+.range input[type=range]:focus { outline: 0; }
 
 .range input[type=range]::-ms-track {
   width: 100%;
@@ -907,7 +779,6 @@ h5 {
 }
 
 .range input[type=range]::-webkit-slider-thumb {
-
   width: 10px;
   height: 10px;
   border: 0;
@@ -947,13 +818,8 @@ h5 {
   position: absolute;
 }
 
-.min {
-  left: 0%;
-}
-
-.max {
-  right: 0%;
-}
+.min { left: 0%; }
+.max { right: 0%; }
 
 .low-high {
   padding: 15px 0 10px;
@@ -968,9 +834,7 @@ h5 {
   text-align: center;
 }
 
-.low-high li:first-child {
-  border-right: none;
-}
+.low-high li:first-child { border-right: none; }
 
 .range-buttons {
   margin: 25px 0 19px;
@@ -995,7 +859,6 @@ h5 {
   color: #6e609b;
   font-weight: 500;
 }
-
 /*=================================
  sale-countdown styling ends here
 =================================*/
@@ -1008,9 +871,7 @@ h5 {
   color: #f0f8ff;
 }
 
-.about-us {
-  background-color: grey;
-}
+.about-us { background-color: grey; }
 
 .about-us h3 {
   margin-bottom: 24px;
@@ -1025,9 +886,7 @@ h5 {
   line-height: 26px;
 }
 
-.about-us .background-image {
-  position: relative;
-}
+.about-us .background-image { position: relative; }
 
 .background-image::before {
   content: '';
@@ -1035,23 +894,19 @@ h5 {
   height: 100%;
   position: absolute;
   z-index: 1;
-  top: 0;
   right: 0;
+  top: 0;
   background-color: #80808068;
 }
 
-.background-image {
-  height: 78.5vh;
-}
+.background-image { height: 78.5vh; }
 
 .background-image img {
   height: 100%;
   object-fit: cover;
 }
 
-.about-us .wrapper {
-  position: relative;
-}
+.about-us .wrapper { position: relative; }
 
 .about-us-content {
   width: 59%;
@@ -1070,9 +925,7 @@ h5 {
   overflow: hidden;
 }
 
-.about-us span {
-  display: block;
-}
+.about-us span { display: block; }
 
 .role {
   font-size: 14.5px;
@@ -1080,25 +933,20 @@ h5 {
   letter-spacing: 0.5px;
 }
 
-.content-down figure {
-  margin: 24px auto 15px;
-}
+.content-down figure { margin: 24px auto 15px; }
 
 .person-name {
   margin-bottom: 5px;
   font-size: 15.5px;
   font-weight: 550;
 }
-
 /*=================================
   about-us styling ends here
 =================================*/
 /*=================================
   tabs styling starts here
 =================================*/
-.tabs {
-  padding: 60px 0 112px;
-}
+.tabs { padding: 60px 0 112px; }
 
 .tab-list {
   width: 100%;
@@ -1108,13 +956,8 @@ h5 {
   gap: 30px;
 }
 
-.tab-list a {
-  padding: 15px 20px;
-}
-
-.tabs .common-para {
-  font-size: 17px;
-}
+.tab-list a { padding: 15px 20px; }
+.tabs .common-para { font-size: 17px; }
 
 .tab-list a:first-child {
   padding-left: 0;
@@ -1122,10 +965,7 @@ h5 {
   font-weight: 700;
 }
 
-.data {
-  padding-top: 22px;
-}
-
+.data { padding-top: 22px; }
 /*=================================
   tabs styling ends here
 =================================*/
@@ -1139,9 +979,7 @@ technology styling starts here
 }
 
 .innovative-technology-left,
-.technical-features-right {
-  width: 50%;
-}
+.technical-features-right { width: 50%; }
 
 .innovative-technology-right {
   width: 45%;
@@ -1159,13 +997,8 @@ technology styling starts here
   border-radius: 35px;
 }
 
-.technology h2 {
-  color: #57468b;
-}
-
-.technology .para-for-h2 {
-  margin-bottom: 20px;
-}
+.technology h2 { color: #57468b; }
+.technology .para-for-h2 { margin-bottom: 20px; }
 
 .progress-list {
   display: flex;
@@ -1212,9 +1045,7 @@ technology styling starts here
   font-weight: 600;
 }
 
-.progress-bar {
-  position: relative;
-}
+.progress-bar { position: relative; }
 
 .progress-bar .blue {
   width: 89%;
@@ -1248,23 +1079,15 @@ technology styling starts here
   object-fit: cover;
 }
 
-.technical-features-left h2 {
-  margin-bottom: 35px;
-}
-
+.technical-features-left h2 { margin-bottom: 35px; }
 /*=================================
   technology styling ends here
 =================================*/
 /*=================================
   watch styling starts here
 =================================*/
-.watch {
-  padding: 152px 0 0;
-}
-
-.watch .wrapper {
-  width: 100%;
-}
+.watch { padding: 152px 0 0; }
+.watch .wrapper { width: 100%; }
 
 .watch p {
   width: 82%;
@@ -1276,16 +1099,13 @@ technology styling starts here
   object-fit: cover;
   width: 100%;
 }
-
 /*=================================
   watch styling ends here
 =================================*/
 /*=================================
   contact styling starts here
 =================================*/
-.contact {
-  padding: 76px 0 100px;
-}
+.contact { padding: 76px 0 100px; }
 
 .contact .wrapper {
   display: flex;
@@ -1309,31 +1129,22 @@ form textarea {
   font-size: 16px;
 }
 
-form textarea {
-  padding: 10px 20px;
-}
+form textarea { padding: 10px 20px; }
 
 h2 {
   margin-bottom: 30px;
   color: #57468b;
 }
 
-.form-div {
-  width: 49%;
-}
-
-form div {
-  width: 100%;
-}
+.form-div { width: 49%; }
+form div { width: 100%; }
 
 .first-name-email {
   display: flex;
   gap: 13px;
 }
 
-textarea {
-  height: 145px;
-}
+textarea { height: 145px; }
 
 form button {
   padding: 10px 20px;
@@ -1348,10 +1159,7 @@ form button {
   text-transform: uppercase;
 }
 
-::placeholder {
-  color: #80808096;
-}
-
+::placeholder { color: #80808096; }
 /*=================================
   contact styling ends here
 =================================*/
@@ -1442,19 +1250,14 @@ form button {
   font-size: 15px;
 }
 
-.name-description {
-  padding: 0 13px 0 15px;
-}
-
+.name-description { padding: 0 13px 0 15px; }
 /*=================================
   social-media styling ends here
 =================================*/
 /*=================================
   faq styling starts here
 =================================*/
-.faq {
-  padding: 63px 0 123px 0;
-}
+.faq { padding: 63px 0 123px 0; }
 
 .faq h2 {
   margin-bottom: 40px;
@@ -1478,7 +1281,6 @@ form button {
   padding: 20px 37px 20px 25px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .accordion-down {
@@ -1505,17 +1307,16 @@ form button {
   font-size: 23px;
   font-weight: 600;
 }
-
 /*=================================
   faq styling ends here
 =================================*/
 /*=================================
   main styling ends here
 =================================*/
+
 /*=================================
   footer styling starts here
 =================================*/
-
 footer {
   padding: 50px 27px 78px 27px;
   clip-path: ellipse(137% 92% at 50% 92%);
@@ -1527,26 +1328,16 @@ footer .wrapper {
   justify-content: space-between;
 }
 
-footer img {
-  width: 60px;
-}
-
-footer div {
-  width: 25%;
-}
+footer img { width: 60px; }
+footer div { width: 25%; }
 
 footer {
   background-color: #343351;
   color: #f0f8ff;
 }
 
-.footer-left {
-  padding-right: 18px;
-}
-
-.footer-left p {
-  padding: 16px 0 12px;
-}
+.footer-left { padding-right: 18px; }
+.footer-left p { padding: 16px 0 12px; }
 
 .social-media-icons a {
   display: flex;
@@ -1570,9 +1361,7 @@ footer {
   padding: 8px 13px;
 }
 
-.social-media-icons .youtube::before {
-  content: "\f167"
-}
+.social-media-icons .youtube::before { content: "\f167" }
 
 .social-media-icons {
   padding-top: 6px;
@@ -1587,9 +1376,7 @@ footer {
   gap: 15px;
 }
 
-footer h5 {
-  color: #f0f8ff;
-}
+footer h5 { color: #f0f8ff; }
 
 .address::before {
   content: "\f167";
@@ -1604,21 +1391,10 @@ footer h5 {
   gap: 10px;
 }
 
-.location::before {
-  content: "\f3c5";
-}
-
-.pin::before {
-  content: "\f08d";
-}
-
-.email-icon::before {
-  content: "\f0e0";
-}
-
-.phone-number::before {
-  content: "\f095";
-}
+.location::before { content: "\f3c5"; }
+.pin::before { content: "\f08d"; }
+.email-icon::before { content: "\f0e0"; }
+.phone-number::before { content: "\f095"; }
 
 .footer-right {
   display: flex;
@@ -1641,11 +1417,10 @@ footer h5 {
   color: #f0f8ff;
 }
 
-
 .footer-right a {
   display: flex;
   align-items: center;
-  color:#f0f8ff;
+  color: #f0f8ff;
   font-size: 15.7px;
   font-weight: 600;
   gap: 10px;
@@ -1667,13 +1442,8 @@ footer h5 {
   font-size: 24px;
 }
 
-.apple {
-  width: 87.3%;
-}
-
-.google {
-  width: 99%;
-}
+.apple { width: 87.3%; }
+.google { width: 99%; }
 
 .theme {
   display: flex;
@@ -1694,9 +1464,7 @@ footer h5 {
   font-size: 23px;
 }
 
-.footer-center-right {
-  position: relative;
-}
+.footer-center-right { position: relative; }
 
 .popuptext {
   width: 275px;
