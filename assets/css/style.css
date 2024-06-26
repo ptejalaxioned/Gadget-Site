@@ -563,7 +563,7 @@ proven-product styling ends here
 
 .reliable-suppliers-img-up img {
   width: 320px;
-height: auto;
+  height: auto;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -1040,9 +1040,10 @@ h5 {
   background-color: #80808068;
 }
 
-.background-image{
+.background-image {
   height: 78.5vh;
 }
+
 .background-image img {
   height: 100%;
   object-fit: cover;
@@ -1241,7 +1242,8 @@ technology styling starts here
   text-indent: -9999px;
 }
 
-.technical-features-right ,.innovative-technology-left  {
+.technical-features-right,
+.innovative-technology-left {
   height: 100%;
   object-fit: cover;
 }
@@ -1349,6 +1351,7 @@ form button {
 ::placeholder {
   color: #80808096;
 }
+
 /*=================================
   contact styling ends here
 =================================*/
@@ -1367,11 +1370,13 @@ form button {
 }
 
 .social-media-list li {
-  padding: 22px 33px;
-  background-color: #fff;
+  width: 22.7%;
+  padding: 17px 0;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
 
 .name-description {
@@ -1385,6 +1390,7 @@ form button {
 }
 
 .icon::before {
+  padding-bottom: 13px;
   font-family: "FontAwesome";
   font-size: 48px;
   display: flex;
@@ -1419,26 +1425,26 @@ form button {
 
 .right-arrow::before {
   content: "\f061";
+  display: flex;
   color: #57468b;
   font-family: "FontAwesome";
-  display: flex;
   text-indent: 0;
 }
 
 .icon-name {
+  color: #57468b;
   font-size: 22px;
   font-weight: 600;
-  color:#57468b;
 }
 
-.icon-description{
-  font-size: 15px;
+.icon-description {
   color: #918a91;
-}
-.name-description{
-padding: 0 12px 0 15px;
+  font-size: 15px;
 }
 
+.name-description {
+  padding: 0 13px 0 15px;
+}
 /*=================================
   social-media styling ends here
 =================================*/
