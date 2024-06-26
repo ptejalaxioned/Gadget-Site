@@ -1499,13 +1499,13 @@ form button {
   font-size: 23px;
   font-weight: 100;
   text-indent: 0;
-  transition: all 0.3s ease-in-out;
 }
 
 .question {
   font-size: 23px;
   font-weight: 600;
 }
+
 /*=================================
   faq styling ends here
 =================================*/
@@ -1516,13 +1516,219 @@ form button {
   footer styling starts here
 =================================*/
 
+footer {
+  padding: 50px 27px 78px 27px;
+  clip-path: ellipse(137% 92% at 50% 92%);
+}
+
+footer .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 60px;
+}
+
+footer div {
+  width: 25%;
+}
+
+footer {
+  background-color: #343351;
+  color: #f0f8ff;
+}
+
+.footer-left {
+  padding-right: 18px;
+}
+
+.footer-left p {
+  padding: 16px 0 12px;
+}
+
+.social-media-icons a {
+  display: flex;
+  text-indent: -9999px;
+}
+
+.social-media-icons a::before {
+  padding: 8px 9px;
+  border-radius: 21px;
+  display: flex;
+  background-color: #f0f8ff;
+  color: #57468b;
+  font-family: "FontAwesome";
+  font-size: 23px;
+  font-weight: 100;
+  text-indent: 0;
+}
+
+.social-media-icons .facebook::before {
+  content: "\f39e";
+  padding: 8px 13px;
+}
+
+.social-media-icons .youtube::before {
+  content: "\f167"
+}
+
+.social-media-icons {
+  padding-top: 6px;
+  display: flex;
+  gap: 14px;
+}
+
+.contact-detailes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+  gap: 15px;
+}
+
+footer h5 {
+  color: #f0f8ff;
+}
+
+.address::before {
+  content: "\f167";
+  font-family: "FontAwesome";
+  color: aliceblue;
+}
+
+.address {
+  color: aliceblue;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.location::before {
+  content: "\f3c5";
+}
+
+.pin::before {
+  content: "\f08d";
+}
+
+.email-icon::before {
+  content: "\f0e0";
+}
+
+.phone-number::before {
+  content: "\f095";
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.apple-google {
+  width: 50%;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-right a {
+  color: aliceblue;
+  padding: 7px 10px;
+  border: 2px solid aliceblue;
+  border-radius: 11px;
+}
 
 
+.footer-right a {
+  color: aliceblue;
+  font-size: 15.7px;
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  align-items: center;
+}
 
+.footer-right a::before {
+  font-family: "FontAwesome";
+  color: aliceblue;
+  font-weight: 100;
+}
 
+.footer-right .apple::before {
+  content: "\f179";
+  font-size: 28px;
+}
 
+.footer-right .google::before {
+  content: "\f3ab";
+  font-size: 24px;
+}
 
-/*=================================
+.apple {
+  width: 87.3%;
+}
+
+.google {
+  width: 99%;
+}
+
+.theme {
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.theme::before {
+  padding: 8px 9px;
+  border-radius: 20px;
+  font-family: "FontAwesome";
+  font-size: 23px;
+  color: aliceblue;
+  background-color: #5580ff;
+  content: "\f099";
+}
+
+.footer-center-right {
+  position: relative;
+}
+
+.popuptext {
+  width: 275px;
+  background-color: #00000018;
+  color: #fff;
+  border-radius: 9px;
+  padding: 18px 14px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-size: 15.5px;
+}
+
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 87%;
+  left: 6%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #00000018 transparent transparent transparent;
+  transform: rotate(134deg);
+}
+
+.theme {
+  position: absolute;
+  bottom: 29%;
+}
+
+/*==========================
   footer styling ends here
 =================================*/
 
