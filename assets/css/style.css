@@ -392,7 +392,9 @@ h1 a {
 
 .banner-content-image img {
   width: 751px;
+  height: auto;
   border-radius: 14px;
+  object-fit: cover;
 }
 
 /*=================================
@@ -477,7 +479,9 @@ proven-product styling starts here
 }
 
 .proven-product img {
+  height: auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .proven-product-right {
@@ -507,6 +511,8 @@ h2 {
 
 .proven-product img {
   width: 549px;
+  height: auto;
+  object-fit: cover;
 }
 
 .proven-product figure {
@@ -550,12 +556,16 @@ proven-product styling ends here
 
 .reliable-suppliers-img-down img {
   width: 455px;
+  height: auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .reliable-suppliers-img-up img {
   width: 320px;
+height: auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .reliable-suppliers .button {
@@ -614,6 +624,8 @@ proven-product styling ends here
 
 .mobile img {
   width: 329px;
+  height: auto;
+  object-fit: cover;
 }
 
 .mobile ul {
@@ -816,7 +828,9 @@ h3 {
 }
 
 .items img {
+  height: auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .item-name {
@@ -990,7 +1004,7 @@ h5 {
 =================================*/
 .about-us .wrapper {
   width: 100%;
-  background-color: grey;
+  background-color: #8080804d;
   color: #f0f8ff;
 }
 
@@ -1005,7 +1019,7 @@ h5 {
 }
 
 .about-us p {
-  color: #d1cdd1;
+  color: #e2e0e2;
   font-size: 17px;
   letter-spacing: 1px;
   line-height: 26px;
@@ -1026,8 +1040,11 @@ h5 {
   background-color: #80808068;
 }
 
-.background-image img {
+.background-image{
   height: 78.5vh;
+}
+.background-image img {
+  height: 100%;
   object-fit: cover;
 }
 
@@ -1036,6 +1053,7 @@ h5 {
 }
 
 .about-us-content {
+  width: 59%;
   position: absolute;
   z-index: 3;
   left: 50%;
@@ -1045,7 +1063,7 @@ h5 {
 }
 
 .about-us-content figure {
-  width: 70px;
+  width: 75px;
   border-radius: 50%;
   margin: 0 auto;
   overflow: hidden;
@@ -1223,8 +1241,9 @@ technology styling starts here
   text-indent: -9999px;
 }
 
-.technical-features-right img {
-  height: 100vh;
+.technical-features-right ,.innovative-technology-left  {
+  height: 100%;
+  object-fit: cover;
 }
 
 .technical-features-left h2 {
@@ -1251,7 +1270,9 @@ technology styling starts here
 }
 
 .watch img {
-  height: 130vh;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 /*=================================
@@ -1278,21 +1299,21 @@ form {
 form input,
 form textarea {
   width: 100%;
+  padding: 23px 20px;
   border-radius: 7px;
   border: none;
   background-color: #f2f6ff;
   color: #e7dde7fe;
   font-size: 16px;
-  padding: 23px 20px;
 }
 
 form textarea {
-padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 h2 {
-  color: #57468b;
   margin-bottom: 30px;
+  color: #57468b;
 }
 
 .form-div {
@@ -1326,10 +1347,100 @@ form button {
 }
 
 ::placeholder {
-  color: rgba(128, 128, 128, 0.589);
+  color: #80808096;
 }
 /*=================================
   contact styling ends here
+=================================*/
+/*=================================
+  social-media styling starts here
+=================================*/
+.social-media {
+  padding: 87px 0;
+  background-color: #ecf2ff;
+}
+
+.social-media-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-list li {
+  padding: 22px 33px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.name-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: flex;
+  text-indent: -9999px;
+}
+
+.icon::before {
+  font-family: "FontAwesome";
+  font-size: 48px;
+  display: flex;
+  text-indent: 0;
+}
+
+.behance::before {
+  content: "\f1b4";
+  color: #ff3366;
+  font-size: 40px;
+}
+
+.vimeo::before {
+  content: "\f27d ";
+  color: #bfceff;
+}
+
+.twitter::before {
+  content: "\f099";
+  color: #5580ff;
+}
+
+.instagram::before {
+  content: "\f16d";
+  color: #ff8a73;
+}
+
+.right-arrow {
+  display: flex;
+  text-indent: -9999px;
+}
+
+.right-arrow::before {
+  content: "\f061";
+  color: #57468b;
+  font-family: "FontAwesome";
+  display: flex;
+  text-indent: 0;
+}
+
+.icon-name {
+  font-size: 22px;
+  font-weight: 600;
+  color:#57468b;
+}
+
+.icon-description{
+  font-size: 15px;
+  color: #918a91;
+}
+.name-description{
+padding: 0 12px 0 15px;
+}
+
+/*=================================
+  social-media styling ends here
 =================================*/
 /*=================================
   main styling ends here
