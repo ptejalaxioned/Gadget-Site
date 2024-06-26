@@ -759,14 +759,14 @@ h3 {
 }
 
 .number {
-  font-size: 70px;
   color: #6e609b;
+  font-size: 70px;
 }
 
 .period {
+  color: #6e609b;
   font-size: 25px;
   text-transform: capitalize;
-  color: #6e609b;
 }
 
 .sort-buttons a {
@@ -820,16 +820,16 @@ h3 {
 }
 
 .item-name {
+  margin-top: 15px;
   color: #6e609b;
   font-size: 22px;
   font-weight: 600;
   text-transform: capitalize;
-  margin-top: 15px;
 }
 
 .item-price {
-  font-size: 22px;
   color: #80808096;
+  font-size: 22px;
 }
 
 .filter-range-right {
@@ -897,13 +897,13 @@ h5 {
   width: 10px;
   height: 10px;
   border: 0;
+  border: 7px solid #ff8a73;
   border-radius: 50%;
   margin: 0;
   margin-top: -4px;
   position: relative;
   z-index: 100;
   background-color: #ff8a73;
-  border: 7px solid #ff8a73;
   cursor: pointer;
   outline: 0;
   pointer-events: all;
@@ -941,45 +941,47 @@ h5 {
   right: 0%;
 }
 
-.low-high{
-display: flex;
-padding: 15px 0 10px;
-}
-.low-high li{
-width: 50%;
-text-align: center;
-border: 2px solid #ff8a73;
-padding: 7px 0;
-font-size: 12.5px;
+.low-high {
+  padding: 15px 0 10px;
+  display: flex;
 }
 
-.low-high li:first-child{
-border-right: none;
+.low-high li {
+  width: 50%;
+  padding: 7px 0;
+  border: 2px solid #ff8a73;
+  font-size: 12.5px;
+  text-align: center;
 }
 
-.range-buttons{
+.low-high li:first-child {
+  border-right: none;
+}
+
+.range-buttons {
   margin: 25px 0 19px;
   display: flex;
   justify-content: space-between;
 }
 
-.range-buttons a{
+.range-buttons a {
   padding: 13px 28px;
   border-radius: 35px;
   font-size: 13.5px;
 }
 
-.filter-list{
+.filter-list {
   padding: 16px 0 0 13px;
-display: flex;
-flex-direction: column;
-gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.filter-list a{
-color: #6e609b;
-font-weight: 500;
+.filter-list a {
+  color: #6e609b;
+  font-weight: 500;
 }
+
 /*=================================
  sale-countdown styling ends here
 =================================*/
@@ -991,21 +993,22 @@ font-weight: 500;
   background-color: grey;
   color: #f0f8ff;
 }
+
 .about-us {
   background-color: grey;
 }
 
 .about-us h3 {
+  margin-bottom: 24px;
   color: #f0f8ff;
   font-weight: 100;
-  margin-bottom: 24px;
 }
 
 .about-us p {
   color: #d1cdd1;
+  font-size: 17px;
   letter-spacing: 1px;
   line-height: 26px;
-  font-size: 17px;
 }
 
 .about-us .background-image {
@@ -1024,19 +1027,20 @@ font-weight: 500;
 }
 
 .background-image img {
-  height: 88vh;
+  height: 78.5vh;
   object-fit: cover;
 }
+
 .about-us .wrapper {
   position: relative;
 }
 
 .about-us-content {
-  text-align: center;
   position: absolute;
   z-index: 3;
-  top: 50%;
   left: 50%;
+  top: 52%;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
 
@@ -1060,6 +1064,7 @@ font-weight: 500;
 .content-down figure {
   margin: 24px auto 15px;
 }
+
 .person-name {
   margin-bottom: 5px;
   font-size: 15.5px;
@@ -1067,6 +1072,39 @@ font-weight: 500;
 }
 /*=================================
   about-us styling ends here
+=================================*/
+/*=================================
+  tabs styling starts here
+=================================*/
+.tabs{
+  padding: 60px 0 112px;
+}
+.tab-list {
+  width: 100%;
+  border-bottom: 1px solid #918a918d;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.tab-list a {
+  padding: 15px 20px;
+}
+
+.tabs .common-para {
+font-size: 17px;
+}
+.tab-list a:first-child {
+  padding-left: 0;
+  color: #918a9179;
+  font-weight: 700;
+}
+
+.data {
+  padding-top: 22px;
+}
+/*=================================
+  tabs styling ends here
 =================================*/
 /*=================================
   main styling ends here
