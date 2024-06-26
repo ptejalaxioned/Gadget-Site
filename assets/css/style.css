@@ -727,7 +727,7 @@ proven-product styling ends here
  sale-countdown styling starts here
 =================================*/
 .sale-countdown {
-  padding: 84px 0 58px;
+  padding: 84px 0 0;
 }
 
 .sale-countdown .wrapper {
@@ -747,9 +747,9 @@ h3 {
 }
 
 .count-list {
+  padding: 40px 0 17px;
   display: flex;
   justify-content: space-between;
-  padding: 40px 0 17px;
 }
 
 .count-list li {
@@ -795,6 +795,7 @@ h3 {
 
 .filter-range-right {
   width: 21%;
+  padding-top: 23px;
 }
 
 .filter-range-left {
@@ -832,7 +833,7 @@ h3 {
 }
 
 .filter-range-right {
-  padding-right: 32px;
+  padding-right: 28px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -957,11 +958,27 @@ border-right: none;
 }
 
 .range-buttons{
+  margin: 25px 0 19px;
   display: flex;
   justify-content: space-between;
 }
+
 .range-buttons a{
-  padding: 10px 25px;
+  padding: 13px 28px;
+  border-radius: 35px;
+  font-size: 13.5px;
+}
+
+.filter-list{
+  padding: 16px 0 0 13px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.filter-list a{
+color: #6e609b;
+font-weight: 500;
 }
 /*=================================
  sale-countdown styling ends here
