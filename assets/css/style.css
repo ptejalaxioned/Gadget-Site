@@ -1253,8 +1253,83 @@ technology styling starts here
 .watch img {
   height: 130vh;
 }
+
 /*=================================
   watch styling ends here
+=================================*/
+/*=================================
+  contact styling starts here
+=================================*/
+.contact {
+  padding: 76px 0 100px;
+}
+
+.contact .wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  background-color: #f2f6ff;
+  color: #e7dde7fe;
+  font-size: 16px;
+  padding: 23px 20px;
+}
+
+form textarea {
+padding: 10px 20px;
+}
+
+h2 {
+  color: #57468b;
+  margin-bottom: 30px;
+}
+
+.form-div {
+  width: 49%;
+}
+
+form div {
+  width: 100%;
+}
+
+.first-name-email {
+  display: flex;
+  gap: 13px;
+}
+
+textarea {
+  height: 145px;
+}
+
+form button {
+  padding: 10px 20px;
+  padding: 10px 44px;
+  border-radius: 35px;
+  border: none;
+  background-color: #ff8a73;
+  color: #f0f8ff;
+  font-weight: 550;
+  font-size: 15.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+::placeholder {
+  color: rgba(128, 128, 128, 0.589);
+}
+/*=================================
+  contact styling ends here
 =================================*/
 /*=================================
   main styling ends here
