@@ -1235,6 +1235,28 @@ technology styling starts here
   technology styling ends here
 =================================*/
 /*=================================
+  watch styling starts here
+=================================*/
+.watch {
+  padding: 152px 0 0;
+}
+
+.watch .wrapper {
+  width: 100%;
+}
+
+.watch p {
+  width: 82%;
+  margin: auto auto 55px;
+}
+
+.watch img {
+  height: 130vh;
+}
+/*=================================
+  watch styling ends here
+=================================*/
+/*=================================
   main styling ends here
 =================================*/
 /*=================================
