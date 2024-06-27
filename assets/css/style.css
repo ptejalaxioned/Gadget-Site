@@ -962,13 +962,16 @@ h5 {
 .tab-list a { padding: 15px 20px; }
 .tabs .common-para { font-size: 17px; }
 
-.tab-list a {
+.tab-a{
   color: #918a9179;
   font-weight: 700;
 }
 
+.tab-list.tab-onclick a { color: blue; }
+
 .tab-list .programming{ padding-left: 0; }
 .data { padding-top: 22px; }
+.tab-onclick{ color: #343351; }
 /*=================================
   tabs styling ends here
 =================================*/
@@ -1160,6 +1163,16 @@ form button {
   font-size: 15.5px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.input-border {
+  border: 1.5px solid #ff0000;
+  border-radius: 2px;
+}
+
+.div-span {
+  color: #ff0000;
+  font-size: 10px;
 }
 
 ::placeholder { color: #80808096; }
@@ -1524,7 +1537,7 @@ header .wrapper { padding: 20px 5% 23px; }
 /*media query for 1360px starts here*/
 @media only screen and (max-width: 1360px) {
   header .wrapper { padding: 10px 5% 17px; }
-  .banner-content { top: 50%; }
+  .banner-content { top: 57%; }
   .wrapper { width: 82%; }
 }
 
@@ -2114,7 +2127,6 @@ header .wrapper {
   border-radius: 0;
 }
 
-nav { display: none; }
 .features-list { flex-direction: column; }
 .proven-product .wrapper { flex-direction: column; }
 .reliable-suppliers .wrapper { flex-direction: column; }
@@ -2137,71 +2149,13 @@ nav { display: none; }
   transform: translateY(-6px);
 }
 
-.line {
-  display: flex;
-  width: 25px;
-  line-height: 4px;
-  text-indent: -9999px;
-}
-
-.line2-onclick {
-  display: none;
-  transition: all 1s;
-}
-
-.line1-onclick {
-  transform: rotate(-45deg) translateX(-2px);
-  transition: transform 1s;
-}
-
-.line3-onclick {
-  transform: rotate(45deg) translateX(0px);
-  transition: transform 1s;
-}
-
-.line::before {
-  display: inline-block;
-  content: '';
-  width: 17px;
-  border-bottom: 3px solid #57468b;
-  border-radius: 2px;
-}
-
-.nav-list {
-  position: absolute;
-  top: 100%;
-  right: 0%;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  font-size: 15px;
-  text-align: center;
-  transform: translateX(-1000px);
-  transition: all 1s;
-}
-
-.nav-list-onclick {
-  transform: translateX(0px);
-  transition: all 1s;
-}
-
-.nav-list a { color: var(--primary-color); }
-
-.nav-list-a-onclick {
-  color: var(--secondary-color);
-  cursor: pointer;
-  transition: all 1s;
-}
-
 header .wrapper {
   display: flex;
   gap: 11px;
   padding: 14px 5% 14px;
+}
+.header-content {
+  gap: 13PX;
 }
 /*==========================
  header styling ends here
@@ -2653,12 +2607,6 @@ h1 { font-size: 49px; }
     transition: all 1s;
   }
   
-  .tab-list a:hover {
-    color: #57468b;
-    cursor: pointer;
-    transition: all 1s;
-  }
-  
   form button:hover {
     background-color: #837f7f;
     cursor: pointer;
@@ -2688,7 +2636,7 @@ h1 { font-size: 49px; }
     cursor: pointer;
     transition: all 1s;
   }
-  
+
   .footer-right a:hover {
     border-color:#837f7f;
     color: #837f7f;
