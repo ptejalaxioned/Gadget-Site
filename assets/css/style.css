@@ -1522,6 +1522,11 @@ header .wrapper { padding: 20px 5% 23px; }
   .wrapper { width: 82%; }
 }
 
+/*media query for 1280px starts here*/
+@media only screen and (max-width: 1280px) {
+  .banner-content { top: 57%; }
+}
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 /*==========================
