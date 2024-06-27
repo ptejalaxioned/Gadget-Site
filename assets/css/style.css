@@ -271,11 +271,6 @@ nav { width: 60%; }
   text-transform: uppercase;
 }
 
-.demos {
-  display: flex;
-  align-items: center;
-}
-
 .demos::after {
   content: "\f078";
   padding-left: 2px;
@@ -300,6 +295,7 @@ nav { width: 60%; }
 .cart::before { content: "\f07a"; }
 .search::before { content: "\f002"; }
 .earth::before { content: "\f0ac"; }
+.body-onclick{ overflow: hidden; }
 /*=================================
   Header styling ends here
 =================================*/
@@ -960,12 +956,12 @@ h5 {
 .tab-list a { padding: 15px 20px; }
 .tabs .common-para { font-size: 17px; }
 
-.tab-list a:first-child {
-  padding-left: 0;
+.tab-list a {
   color: #918a9179;
   font-weight: 700;
 }
 
+.tab-list .programming{ padding-left: 0; }
 .data { padding-top: 22px; }
 /*=================================
   tabs styling ends here
@@ -1379,13 +1375,24 @@ footer {
 
 footer h5 { color: #f0f8ff; }
 
-.address::before {
-  content: "\f167";
+.contact-info::before {
   color: #f0f8ff;
   font-family: "FontAwesome";
 }
 
-.address {
+address::before {
+  color: #f0f8ff;
+  font-family: "FontAwesome";
+}
+
+.contact-info{
+  display: flex;
+  color: #f0f8ff;
+  font-size: 16px;
+  gap: 10px;
+}
+
+address{
   display: flex;
   color: #f0f8ff;
   font-size: 16px;
@@ -1502,6 +1509,662 @@ footer h5 { color: #f0f8ff; }
 =================================*/
 /*media query starts*/
 /*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+/*==========================
+ header styling starts here
+=================================*/
+header .wrapper {
+  width: 100%;
+  border-radius: 0;
+}
+
+
+.hamburger {
+  padding-top: 0;
+  display: flex;
+  position: relative;
+}
+
+.hamburger {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+  transform: translateY(-6px);
+}
+
+.line {
+  width: 25px;
+  display: flex;
+  line-height: 4px;
+  text-indent: -9999px;
+}
+
+.line2-onclick {
+  display: none;
+  transition: all 1s;
+}
+
+.line1-onclick {
+  transform: rotate(-45deg) translateX(-2px);
+  transition: transform 1s;
+}
+
+.line3-onclick {
+  transform: rotate(45deg) translateX(0px);
+  transition: transform 1s;
+}
+
+.line::before {
+  content: '';
+  width: 17px;
+  border-bottom: 3px solid #57468b;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.nav-list {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  right: 0%;
+  background-color: #6e609b;
+  font-size: 15px;
+  gap: 20px;
+  text-align: center;
+  transform: translateX(-1000px);
+  transition: all 1s;
+}
+
+.nav-list-onclick {
+  transform: translateX(0px);
+  transition: all 1s;
+}
+
+.nav-list a {
+  color: #f0f8ff;
+}
+
+.nav-list-a-onclick {
+  color: #f0f8ff;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+header .wrapper {
+  padding: 14px 2% 14px;
+  display: flex;
+  gap: 11px;
+}
+/*==========================
+ header styling ends here
+=================================*/
+/*===============================
+banner styling starts here
+=================================*/
+.main-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-content-image img {
+  width: 496px;
+}
+
+.banner-buttons .button {
+  padding: 16px 28px;
+}
+
+.banner-buttons {
+  padding: 25px 0 36px;
+}
+
+h1 a {
+  margin-bottom: 9px;
+}
+
+.banner-content {
+  top: 65%;
+}
+/*===============================
+banner styling ends here
+=================================*/
+/*===============================
+features styling starts here
+=================================*/
+.features-list {
+  flex-wrap: wrap;
+  gap: 38px;
+}
+.features-list li {
+  width: 45%;
+  margin: auto;
+}
+.features .wrapper {
+  padding: 80px 0 61px;
+}
+/*===============================
+features styling ends here
+=================================*/
+/*===============================
+proven-product styling starts here
+=================================*/
+.proven-product {
+  padding: 44px 0 72px;
+}
+
+.proven-product figure {
+  padding-left: 0;
+}
+
+.proven-product-right {
+  width: 50%;
+}
+h2 {
+  margin-bottom: 10px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.para-for-h2 {
+  text-align: center;
+  margin: 0 0 21px;
+  font-size: 17px;
+}
+
+.proven-product .button {
+  text-align: center;
+  width: 58%;
+        margin: auto;
+}
+
+.proven-product-right {
+  padding-bottom: 14px;
+}
+
+.button-div {
+  width: 100%;
+  display: flex;
+}
+
+.proven-product figure {
+  padding-top: 47px;
+  margin: auto;
+}
+.proven-product img {
+  width: 425px;
+}
+
+.button {
+  font-size: 14.5px;
+}
+/*===============================
+proven-product styling ends here
+=================================*/
+/*===============================
+reliable-suppliers styling starts here
+=================================*/
+.reliable-suppliers-left {
+  width: 50%;
+}
+
+.reliable-suppliers .button {
+  width: 58%;
+  text-align: center;
+  margin: auto;
+}
+
+.reliable-suppliers-right {
+  margin: auto;
+  margin-top: 47px;
+}
+
+.reliable-suppliers-img-down img {
+  width: 356px;
+}
+
+.reliable-suppliers-img-up img {
+  width: 228px;
+}
+
+.reliable-suppliers {
+  padding: 47px 0 172px;
+}
+/*===============================
+reliable-suppliers styling ends here
+=================================*/
+/*===============================
+prduct styling starts here
+=================================*/
+.product-up {
+  padding: 0;
+}
+
+.product-up {
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+}
+
+.product-up p {
+  margin-bottom: 30px;
+}
+
+.product-list li {
+  width: 33.3%;
+}
+/*===============================
+product styling ends here
+=================================*/
+/*===============================
+mobile styling starts here
+=================================*/
+.mobile ul {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.mobile {
+  padding: 72px 0 60px;
+}
+.mobile ul li {
+    width: 47%;
+  padding: 0 0;
+}
+
+.mobile .wrapper {
+  gap: 45px;
+  flex-direction: column;
+}
+
+.mobile-list-left p {
+  padding-left: 63px;
+}
+
+.mobile-list-left h4 {
+  justify-content: start;
+}
+
+.mobile-list-left {
+  text-align: start;
+}
+
+.mobile-list-left h4::before {
+  font-family: 'FontAwesome';
+  font-size: 35px;
+}
+
+.globe::before {
+  content: '\f0ac';
+}
+
+.chat::before {
+  content: '\f27a';
+  color: #5580ff;
+}
+
+.project::before {
+  content: '\f1d8';
+  color: #ff8a73;
+}
+
+.mobile-list-left h4::after {
+  display: none;
+}
+
+.mobile-list-left p {
+  padding-right: 0;
+}
+
+.mobile h4 {
+  margin-bottom: 0;
+}
+/*===============================
+mobile styling ends here
+=================================*/
+/*===============================
+  we-choose styling starts here
+=================================*/
+.we-choose {
+  padding: 45px 0 54px;
+}
+.we-choose .wrapper {
+  flex-direction: column;
+}
+.we-choose h2,
+.we-choose p {
+  width: 100%;
+}
+
+.we-choose h2 {
+  padding-right: 0;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid #918a9162;
+  border-right: none;
+}
+
+.we-choose p {
+  padding-left: 0;
+  padding-top: 12px;
+  text-align: center;
+}
+/*===============================
+  we-choose styling ends here
+=================================*/
+/*===============================
+  sale-down styling starts here
+=================================*/
+.sale-countdown {
+  padding: 48px 0 0;
+}
+.count-list li {
+  width: 48%;
+}
+.count-list {
+  gap: 18px;
+}
+
+.count-list {
+  padding: 22px 50px 17px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-range-left {
+  width: 100%;
+}
+
+.items {
+  width: 30%;
+  padding-bottom: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.item-list {
+  padding:0 90px 40px;
+  gap: 0;
+}
+
+.sort-buttons {
+  padding: 20px 0 32px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.filter-range-right {
+  width: 30%;
+  margin: auto;
+  padding-top: 23px;
+  text-align: center;
+}
+
+.filter-list {
+  padding: 16px 0 0 13px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+}
+
+.filter-range {
+  flex-direction: column-reverse;
+}
+
+.filter-range-right {
+  padding: 0 0 30px 0;
+  gap: 16px;
+}
+
+.filter-list {
+padding-left: 0;
+}
+
+.range-buttons {
+  margin: 5px 0 16px;
+}
+/*===============================
+  sale-down styling ends here
+=================================*/
+/*===============================
+  about-us styling starts here
+=================================*/
+.background-image::before {
+  height: 100vh;
+}
+
+.background-image img {
+  height: 100vh;
+}
+.about-us-content {
+  width: 80%;
+}
+
+.about-us h3 {
+  margin-bottom: 9px;
+}
+
+.background-image {
+  height: 100vh;
+}
+/*===============================
+  about-us styling ends here
+=================================*/
+/*===============================
+  tabs styling starts here
+=================================*/
+.tabs {
+  padding: 37px 0 45px;
+}
+
+.tab-list .programming {
+  padding-left: 20px;
+}
+
+.tab-list {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 0;
+  padding-bottom: 16px;
+}
+
+.data {
+  padding-top: 27px;
+  text-align: center;
+}
+/*===============================
+  tabs styling ends here
+=================================*/
+/*===============================
+  technology styling starts here
+=================================*/
+.technology .button {
+  width: 58%;
+  text-align: center;
+  margin: auto;
+}
+
+.technology .para-for-h2 {
+  margin-bottom: 13px;
+}
+
+.innovative-technology-left {
+  padding-top: 23px;
+}
+
+.technical-features-left {
+  padding: 50px 44px 44px;
+}
+
+.technical-features-left h2 {
+  margin-bottom: 27px;
+}
+.progress-list {
+  gap: 27px;
+}
+/*===============================
+  technology styling ends here
+=================================*/
+/*===============================
+  watch styling starts here
+=================================*/
+.watch {
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+.watch p {
+  margin: auto auto 35px;
+}
+/*===============================
+  watch styling ends here
+=================================*/
+/*===============================
+  contact styling starts here
+=================================*/
+.contact {
+  padding: 50px 0 59px;
+}
+
+.contact .wrapper {
+  justify-content: center;
+}
+
+.first-name-email {
+ flex-wrap: wrap;
+}
+
+.contact h2 {
+  margin-bottom: 23px;
+}
+
+.send-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*===============================
+  contact styling ends here
+=================================*/
+/*==========================
+  social-media styling starts here
+=================================*/
+.social-media-list {
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.social-media-list li {
+  width: 35%;
+}
+
+.social-media {
+  padding: 71px 0;
+}
+
+.social-media-list {
+  gap: 14px;
+}
+/*==========================
+  social-media styling ends here
+=================================*/
+/*==========================
+  fqa styling starts here
+=================================*/
+.faq {
+  padding: 53px 0 72px 0;
+}
+
+.question {
+  font-size: 20px;
+}
+.arrow-down::before {
+  font-size: 19px;
+}
+
+.accordion-up {
+  padding: 20px 25px 20px 25px;
+}
+/*==========================
+  fqa styling ends here
+=================================*/
+/*==========================
+  footer styling starts here
+=================================*/
+footer div {
+  width: 70%;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-left {
+  padding-right: 0;
+}
+
+.social-media-icons {
+  justify-content: center;
+}
+
+footer {
+  padding-bottom: 60px;
+}
+footer .wrapper {
+  flex-direction: column;
+  gap: 35px;
+}
+
+.contact-detailes {
+  padding-top: 20px;
+  align-items: center;
+}
+
+.footer-center-right {
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+}
+
+.apple-google {
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  margin: auto;
+}
+.popuptext {
+  left: 29%;
+}
+
+.theme {
+  bottom: 0%;
+}
+
+footer {
+  padding: 43px 27px 59px 27px;
+  clip-path: ellipse(197% 92% at 50% 92%);
+}
+/*==========================
+  footer styling ends here
+=================================*/
+}
+
+
+/*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {}
 
 
@@ -1601,7 +2264,7 @@ form button:hover {
   cursor: pointer;
   transition: all 1s;
 }
-.address:hover{
+.contact-info:hover{
   color: #837f7f;
   cursor: pointer;
   transition: all 1s;
