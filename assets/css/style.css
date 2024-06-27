@@ -1594,7 +1594,10 @@ header .wrapper {
   width: 100%;
   border-radius: 0;
 }
-
+.header-content {
+Justify-content: END;
+    GAP: 20PX;
+}
 .hamburger {
   padding-top: 0;
   display: flex;
@@ -2210,6 +2213,36 @@ footer {
 .form-div { width: 55%; }
 .popuptext { left: 24%; }
 .apple-google { width: 32%; }
+}
+
+/*media query for 640px starts here*/
+@media only screen and (max-width: 640px) {
+.icons-list{
+    display: flex;
+    width: 63%;
+}
+
+.header-content { gap: 0; }
+.header-center{ width: 27%; }
+.banner-content-image img { width: 307px; }
+.banner-buttons {  padding: 13px 0 21px; }
+.proven-product .wrapper { flex-direction: column-reverse; }
+.proven-product-right { width: 102%; }
+.reliable-suppliers .wrapper { flex-direction: column; }
+.reliable-suppliers-left { width: 100%; }
+.reliable-suppliers-right { width: 80%; }
+.reliable-suppliers-img-down img { width: 398px; }
+.reliable-suppliers-img-up img { width: 260px; }
+.reliable-suppliers-right { margin-top: 42px; }
+.items { width: 44%; }
+.innovative-technology-left{ width: 325px; }
+.technology .button { width: 92%; }
+.innovative-technology-right { padding-bottom: 15px; }
+.innovative-technology-left { padding-top: 0; }
+.form-div { width: 73%; }
+.social-media-list li { width: 44%; }
+.popuptext { left: 18%; }
+.apple-google { width: 37%; }
 }
 @media only screen and (min-width: 996px) {
 /*==========================
