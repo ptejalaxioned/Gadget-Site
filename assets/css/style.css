@@ -1527,6 +1527,64 @@ header .wrapper { padding: 20px 5% 23px; }
   .banner-content { top: 57%; }
 }
 
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+.banner-content-image img { width: 470px; }
+header .wrapper { padding: 10px 3% 17px; }
+.banner-content { top: 62%; }
+.features-list { gap: 37px; }
+.features .wrapper { width: 88%; }
+.proven-product img { width: 438px; }
+.proven-product-right { width: 50%; }
+.wrapper { width: 90%; }
+.proven-product figure { padding-left: 30px; }
+.reliable-suppliers-img-down img { width: 397px; }
+.we-choose h2 { font-size: 39px; }
+.range-buttons a { padding: 13px 18px; }
+.apple-google { width: 62%; }
+
+footer div {
+  width: 70%;
+  margin: auto;
+}
+
+footer { text-align: center; }
+.footer-left { padding-right: 0; }
+.social-media-icons { justify-content: center; }
+footer { padding-bottom: 60px; }
+
+footer .wrapper {
+  flex-direction: column;
+  gap: 35px;
+}
+
+.contact-detailes {
+  padding-top: 20px;
+  align-items: center;
+}
+
+.footer-center-right {
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+}
+
+.apple-google {
+  width: 23%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.popuptext { left: 30%; }
+.theme { bottom: 0%; }
+
+footer {
+  padding: 43px 27px 59px 27px;
+  clip-path: ellipse(197% 92% at 50% 92%);
+}
+}
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 /*==========================
@@ -2126,54 +2184,8 @@ padding-left: 0;
 /*==========================
   footer styling starts here
 =================================*/
-footer div {
-  width: 70%;
-  margin: auto;
-}
-
-footer {
-  text-align: center;
-}
-
-.footer-left {
-  padding-right: 0;
-}
-
-.social-media-icons {
-  justify-content: center;
-}
-
-footer {
-  padding-bottom: 60px;
-}
-footer .wrapper {
-  flex-direction: column;
-  gap: 35px;
-}
-
-.contact-detailes {
-  padding-top: 20px;
-  align-items: center;
-}
-
-.footer-center-right {
-  height: 28vh;
-  display: flex;
-  justify-content: center;
-}
-
-.apple-google {
-  justify-content: center;
-  align-items: center;
-  width: 23%;
-  margin: auto;
-}
 .popuptext {
-  left: 29%;
-}
-
-.theme {
-  bottom: 0%;
+  left: 30%;
 }
 
 footer {
