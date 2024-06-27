@@ -3671,3 +3671,21 @@ form textarea {
 =================================*/
 }
 
+/*media query for 375px starts here*/
+@media only screen and (max-width: 375px) {
+.header-center { width: 47%; }
+.header-content { justify-content: space-between; }
+.proven-product img { width: 303px; }
+.reliable-suppliers-img-down img { width: 268px; }
+.range-buttons a { padding: 11px 36px; }
+.popuptext { left: -28px; }
+
+h2{
+  margin-bottom: 8px;
+  font-size: 34px;
+}
+
+.apple-google { width: 67%; }
+.popuptext { left: 0; }
+.social-media-list li { width: 73%; }
+}
