@@ -2123,10 +2123,6 @@ padding-left: 0;
   justify-content: center;
 }
 
-.first-name-email {
- flex-wrap: wrap;
-}
-
 .contact h2 {
   margin-bottom: 23px;
 }
@@ -2135,6 +2131,10 @@ padding-left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.form-div {
+  width: 49%;
 }
 /*===============================
   contact styling ends here
@@ -2197,12 +2197,20 @@ footer {
 =================================*/
 }
 
-
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
-
-
-
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+.banner-content-image img { width: 404px; }
+.features .wrapper { padding: 103px 0 61px; }
+.proven-product img { width: 340px; }
+.proven-product .button { width: 70%; }
+.reliable-suppliers-img-down img { width: 282px; }
+.reliable-suppliers-right { margin-top: 0; }
+.reliable-suppliers-img-up img { width: 189px; }
+.technology .button { width: 70%; }
+.form-div { width: 55%; }
+.popuptext { left: 24%; }
+.apple-google { width: 32%; }
+}
 @media only screen and (min-width: 996px) {
 /*==========================
   hover styling starts here
