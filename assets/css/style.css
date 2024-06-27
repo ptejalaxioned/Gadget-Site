@@ -1517,9 +1517,21 @@ header .wrapper {
   top: 62%;
 }
 .wrapper {
-  max-width: 1920px;
   width: 86%;
 }
+}
+/*media query for 1360px starts here*/
+@media only screen and (max-width: 1360px) {
+  header .wrapper {
+    padding: 10px 5% 17px;
+  }
+  .banner-content {
+    top: 50%;
+  }
+  .wrapper {
+    width: 82%;
+  }
+
 }
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
