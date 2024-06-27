@@ -1510,29 +1510,18 @@ address{
 /*media query starts*/
 /*media query for 1440px starts here*/
 @media only screen and (max-width: 1440px) {
-header .wrapper {
-  padding: 20px 5% 23px;
+header .wrapper { padding: 20px 5% 23px; }
+.banner-content { top: 62%; }
+.wrapper { width: 86%; }
 }
-.banner-content {
-  top: 62%;
-}
-.wrapper {
-  width: 86%;
-}
-}
+
 /*media query for 1360px starts here*/
 @media only screen and (max-width: 1360px) {
-  header .wrapper {
-    padding: 10px 5% 17px;
-  }
-  .banner-content {
-    top: 50%;
-  }
-  .wrapper {
-    width: 82%;
-  }
-
+  header .wrapper { padding: 10px 5% 17px; }
+  .banner-content { top: 50%; }
+  .wrapper { width: 82%; }
 }
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 /*==========================
