@@ -616,9 +616,10 @@ proven-product styling ends here
 .we-choose p { width: 50%; }
 
 .we-choose h2 {
-  padding-right: 50px;
+  padding-right: 49px;
   border-right: .5px solid #918a9162;
-  font-size: 45px;
+  margin-bottom: 0;
+  font-size: 44px;
 }
 
 .we-choose p { padding-left: 60px; }
@@ -1499,7 +1500,6 @@ footer h5 { color: #f0f8ff; }
 /*==========================
   footer styling ends here
 =================================*/
-
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {}
@@ -1510,83 +1510,102 @@ footer h5 { color: #f0f8ff; }
 /*==========================
   hover styling starts here
 =================================*/
+
 .nav-list a:hover {
-    color: #a2b5f0;
-    cursor: pointer;
-    transition: all 1s;
-  }
-  .demo-list:hover .sub-list{
-      width: 10vw;
-      padding: 10px 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      z-index: 2;
-      background-color:#f0f8ff;
-    }
-    .header-center a:hover{
-      background-color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
-    .icons-list a:hover::before {
-color: #837f7f;
-cursor: pointer;
-transition: all 1s;
-    }
-    .button:hover{
-      background-color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
+  color: #a2b5f0;
+  cursor: pointer;
+  transition: all 1s;
+}
 
-    .sort-buttons a:hover{
-background-color: #ff8a73;
-color: #f0f8ff;
-    }
+.demo-list:hover .sub-list {
+  width: 10vw;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  background-color: #f0f8ff;
+}
 
-    .tab-list a:hover{
-color: #57468b;
-    }
-    form button:hover{
-      background-color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
+.header-center a:hover {
+  background-color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
 
-    .right-arrow:hover::before {
-color: #837f7f;
-cursor: pointer;
-transition: all 1s;
-    }
+.icons-list a:hover::before {
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
 
-    .arrow-down:hover::before {
-      color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
-    .social-media-icons a:hover::before {
-      background-color:#837f7f ;
-      cursor: pointer;
-      transition: all 1s;
-    }
-    .theme:hover{
-      color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
-    .footer-right a:hover{
-      border:px solid  #837f7f;
-      color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
-    .footer-right a:hover:before{
-      color: #837f7f;
-      cursor: pointer;
-      transition: all 1s;
-    }
+.button:hover {
+  background-color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.sort-buttons a:hover {
+  background-color: #ff8a73;
+  color: #f0f8ff;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.tab-list a:hover {
+  color: #57468b;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+form button:hover {
+  background-color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.right-arrow:hover::before {
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.arrow-down:hover::before {
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.social-media-icons a:hover::before {
+  background-color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.theme:hover {
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.footer-right a:hover {
+  border-color:#837f7f;
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.footer-right a:hover:before {
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
+.address:hover{
+  color: #837f7f;
+  cursor: pointer;
+  transition: all 1s;
+}
 /*==========================
   hover styling ends here
 =================================*/
