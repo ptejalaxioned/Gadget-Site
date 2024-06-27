@@ -3636,7 +3636,6 @@ form textarea {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 30vh;
 }
 
 .apple-google {
@@ -3686,6 +3685,23 @@ h2{
 }
 
 .apple-google { width: 67%; }
-.popuptext { left: 0; }
+.popuptext { left: -12%; }
 .social-media-list li { width: 73%; }
+}
+
+/*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
+.header-center { width: 57%; }
+.banner-buttons .button { padding: 16px 11px; }
+h1 { font-size: 49px; }
+.banner-content-image img { width: 271px; }
+.proven-product img { width: 263px; }
+.reliable-suppliers-img-down img { width: 238px; }
+.reliable-suppliers-img-up img { width: 155px; }
+.reliable-suppliers { padding: 47px 0 125px; }
+.sale-countdown h3 { font-size: 35px; }
+.range-buttons a { padding: 11px 28px; }
+.item-name { text-align: center; }
+.popuptext { left: -25%; }
+.apple-google { width: 81%; }
 }
