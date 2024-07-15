@@ -244,17 +244,14 @@ if(element.classList.contains("default-sort"))
  if(element.classList.contains("sort-low-high"))
   {
       sortByPriceLowToHigh();
-  
   }
   if(element.classList.contains("sort-high-low"))
     {
         sortByPriceHighToLow();
-    
     }
 
   })
   })
-
 
 
 //couter function
