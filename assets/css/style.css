@@ -862,6 +862,10 @@ h5 {
   color: #6e609b;
   font-weight: 500;
 }
+.sort-onclick {
+  background-color: #ff8a73;
+  color: #f0f8ff;
+}
 /*=================================
  sale-countdown styling ends here
 =================================*/
