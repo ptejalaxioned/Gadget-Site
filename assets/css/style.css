@@ -959,6 +959,9 @@ h5 {
   gap: 30px;
 }
 
+.data li{
+  color: #918a91;
+}
 .tab-list a { padding: 15px 20px; }
 .tabs .common-para { font-size: 17px; }
 
@@ -972,6 +975,9 @@ h5 {
 .tab-list .programming{ padding-left: 0; }
 .data { padding-top: 22px; }
 .tab-onclick{ color: #343351; }
+.no-display{
+  display: none;
+}
 /*=================================
   tabs styling ends here
 =================================*/
@@ -1300,9 +1306,18 @@ form button {
 }
 
 .accordion-down {
-  padding: 0 37px 20px 25px;
-  display: none;
+  padding: 0 37px 0 25px;
+  /* display: none; */
+ 
   color: #918a91;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+
+.accordion-down p{
+  margin-bottom: 20px;
 }
 
 .arrow-down {
@@ -1317,11 +1332,16 @@ form button {
   font-size: 23px;
   font-weight: 100;
   text-indent: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .question {
   font-size: 23px;
   font-weight: 600;
+}
+
+.arrow-down-onclick::before{
+  content: "\f077";
 }
 /*=================================
   faq styling ends here
@@ -2659,3 +2679,14 @@ h1 { font-size: 49px; }
   =================================*/
   }
   
+  .no-result{
+    font-size: 40px;
+    color:#6e609b;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+  }
+  .ul-height{
+    height: 90vh;
+  }
